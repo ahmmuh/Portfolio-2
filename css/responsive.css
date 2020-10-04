@@ -1,0 +1,148 @@
+@media (max-width: 1300px) {
+  /* header */
+  .header h2 {
+    display: none;
+  }
+  .header-text p {
+    font-size: 20px;
+  }
+  /* header ends */
+  .toggleMenu {
+    display: block;
+    right: 0;
+    position: absolute;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .toggleNavbar {
+    width: 50%;
+    height: 85vh;
+    display: block;
+    background-color: rgba(56, 53, 53, 0.808);
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  #navbar .menuList {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .toggleNavbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #languages {
+    margin-top: 60px;
+    width: 90%;
+  }
+
+  .languageContainer div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  .languageContainer div h4 i {
+    font-size: 14px;
+  }
+
+  .about h4 {
+    text-align: center;
+  }
+
+  .about-container .about-description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  .study .study-container div h3 i {
+    margin-left: -18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    margin-top: 100px;
+  }
+}
+
+/* for small screen */
+@media (max-width: 767px) {
+  .about {
+    margin-top: 150px;
+    height: 100%;
+  }
+  .about-container .about-description {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .study .study-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* form */
+
+  .formContainer form .buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: -40%;
+  }
+  .formContainer form .buttonGroup button {
+    width: 30%;
+  }
+  .formContainer form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /*  form ends */
+
+  .study .study-container div h3 {
+    padding-top: 20px;
+    margin-left: 10px;
+  }
+  #footer {
+    height: 100px;
+  }
+}
+
+@media (max-width: 650px) {
+  .about {
+    margin-top: 180px;
+  }
+  .study .study-container div h3 {
+    padding-top: 20px;
+    margin-left: -38px;
+  }
+}
+/* for mobile */
+@media (max-width: 480px) {
+  .about {
+    margin-top: 220px;
+  }
+  .languageContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .languageContainer div {
+    width: 60%;
+    background-color: rgba(226, 228, 218, 0.377);
+  }
+
+  .study .study-container div h3 {
+    padding-top: 20px;
+  }
+  footer ul li a {
+    font-size: 13px;
+  }
+}

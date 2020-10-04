@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Vi utvecklare fina webbplatser och mobilappar med bara Javascript"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript,JQuery, Nodejs, Bootstrap, React, Angular och React native"
+    />
+    <meta name="author" content="Ahmed Mukhtar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      Vi utvecklar fina webb/appar med dem senaste tekniker som React, Angular,
+      Javascript, Jquery, Nodejs html, css, bootstrap men också React native för
+      mobilappar
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c67990356f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header class="header" id="header">
+        <i id="logo" class="fas fa-code"></i>
+        <nav class="navbar" id="navbar">
+          <ul class="menuList">
+            <li><a href="#">Hem</a></li>
+            <li><a href="#" class="scroll_To_study">Utbildning</a></li>
+            <li><a href="#" class="scroll_To_about">Om mig</a></li>
+            <li><a href="#" class="scroll_To_contact">Kontakta mig</a></li>
+          </ul>
+        </nav>
+        <button class="toggleMenu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="header-text">
+          <h1 class="animate__animated animate__backInUp">
+            Välkommen till Code Anytime
+          </h1>
+          <p id="welcomeText" class="animate__animated animate__backInDown">
+            Nu när man bygger en webbplats så är det viktigt att säga till att
+            sidan är mobilanpassad då folk använder mobiltelefoner och andra små
+            enheter.
+          </p>
+          <p id="time">2020</p>
+        </div>
+      </header>
+      <!-- header ends -->
+      <!-- section för programmeringsspråk -->
+      <main id="languages">
+        <h3 class="animate__animated animate__bounce">Fina verktyg</h3>
+        <p>
+          När jag bygger en webb/app så använder jag mig av följande
+          programmeringsspråk
+        </p>
+        <div class="languageContainer">
+          <div>
+            <h4><i class="fab fa-js-square"></i></h4>
+          </div>
+          <div>
+            <h4><i class="fab fa-react"></i></h4>
+          </div>
+          <div>
+            <h4><i class="fas fa-mobile"></i></h4>
+          </div>
+          <div>
+            <h4><i class="fab fa-angular"></i></h4>
+          </div>
+          <div>
+            <h4><i class="fab fa-html5"></i></h4>
+          </div>
+        </div>
+      </main>
+      <!-- section för programmerings ends-->
+      <!-- about me section -->
+      <section class="about js--about">
+        <div class="about-container">
+          <article class="about-description">
+            <img src="/images/me.jpg" alt="me" class="myProfile" />
+
+            <p>
+              Jag heter Ahmed Mukhtar och är bosatt i Umeå. I dagsläget så
+              studerar jag på högskolan i Borås på en utbildning som heter
+              Webbredaktör (Web Content Manager and Designer – Front End Web
+              Developer). Det är kul och man lär sig mycket inom IT och
+              programmering. Jag har alltid haft ett stort intresse inom
+              programmering och har läst det i några år nu genom andra
+              utbildningar också. På fritiden programmerar jag också mycket då
+              det är min passion. Som person är jag en social kille som gillar
+              att hjälpa andra människor och gillar att omgivningen ska vara
+              energifull och ha en bra stämning. Genom att hjälpa andra så lär
+              man sig själv också och man utvecklas ännu mer. Min dröm har
+              alltid varit att jobba med programmering och IT, jag ställer gärna
+              upp på en intervju för att presentera mig själv och visa vad jag
+              går för.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <div class="formContainer js--contactForm">
+        <h2>Kontakta mig</h2>
+        <form name="contactForm" id="formContact">
+          <p id="error"></p>
+          <p id="success"></p>
+          <div class="form-group">
+            <label for="name">Ditt namn:</label>
+            <input type="text" name="name" id="name" placeholder="Ditt namn" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-postadress:</label>
+            <input type="email" name="email" id="email" placeholder="E-post" />
+          </div>
+
+          <div class="form-group">
+            <label for="tel">Telefon:</label>
+            <input type="text" name="tel" id="tel" placeholder="Tel" />
+          </div>
+          <div class="buttonGroup">
+            <button type="submit" id="submitBtn">Skicka</button>
+            <button type="reset" id="resetBtn">Återställ</button>
+          </div>
+        </form>
+      </div>
+      <!-- about me section ends-->
+
+      <!-- utbildning section -->
+      <div class="study js--study">
+        <h2><i class="fas fa-graduation-cap"></i> Utbildningar</h2>
+        <div class="study-container">
+          <div>
+            <h3><i class="fas fa-tools"></i>Webbredaktör (180 hp)</h3>
+            <p>
+              Web Content Manager and Designer – Front End Web Developer (180)
+              hp Design, programmering, textredigering, optimering och skribent.
+            </p>
+          </div>
+
+          <div>
+            <h3><i class="fas fa-globe"></i> Frontendutvecklare</h3>
+            <p>
+              Läser nu andra och sista året på en frontendutvecklare utbildning.
+              Vi hade läst programmeringsspråk för webben som Html, Css, Js men
+              också några bibliotek och ramverk som React, Angular, Jquery och
+              Nodejs.
+            </p>
+          </div>
+          <div>
+            <h3><i class="fal fa-mobile"></i>Apputvecklare</h3>
+            <p>
+              Är utbildad till approgrammerare på en yhskolan och läste Kotlin
+              och Swift men nu senaste tiden jobbade jag med React native för
+              apputveckling.
+            </p>
+          </div>
+
+          <div>
+            <h3><i class="fas fa-edit"></i>Mobilhandel</h3>
+            <p>
+              Har bra kunskap om webbprogrammering, jobbat med Wordpress, Stripe
+              och Woocommerce för att kunna bygga e-handelssystem men också
+              försäljning, marknadsföring och adminstration.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- utbildning section ends-->
+
+      <footer id="footer">
+        <ul>
+          <li>
+            <a href="tel:0734754392"><i class="fas fa-phone"></i> 0734754392</a>
+          </li>
+          <li>
+            <a href="mailto:mukhtar1100@hotmail.com"
+              ><i class="fas fa-envelope-open"></i>E-post</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fas fa-copyright"></i>Skapad av Ahmed &copy; 2020</a
+            >
+          </li>
+        </ul>
+      </footer>
+      <!-- footer ends -->
+    </div>
+    <script src="resources/js/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script> -->
+
+    <script src="js/main.js"></script>
+    <script src="js/formValidate.js"></script>
+    <script src="js/time.js"></script>
+  </body>
+</html>
