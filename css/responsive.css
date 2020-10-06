@@ -60,14 +60,17 @@
     align-items: center;
     align-content: center;
   }
-  .study .study-container div h3 i {
-    margin-left: -18px;
+  .study .study-container div h3 {
+    margin-left: -30px;
   }
 }
 
 @media (max-width: 900px) {
   .about {
     margin-top: 100px;
+  }
+  .study .study-container div h3 {
+    margin-left: -60px;
   }
 }
 
@@ -121,13 +124,20 @@
   }
   .study .study-container div h3 {
     padding-top: 20px;
-    margin-left: -38px;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .study .study-container div h3 {
+    padding-top: 20px;
+    margin-left: -40px;
   }
 }
 /* for mobile */
 @media (max-width: 480px) {
   .about {
-    margin-top: 220px;
+    padding-top: 190px;
   }
   .languageContainer {
     display: grid;
